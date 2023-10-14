@@ -1,8 +1,12 @@
 # 创建一个包含100个产品信息的字典
 productInfo = {
-    "product1": {"productName": "商品1", "price": 10.0, "inventory": 50},
-    "product2": {"productName": "商品2", "price": 15.0, "inventory": 30},
-    # 添加更多产品信息...
+    "product1": {"productName": "MSI GeForce RTX 4090 GAMING X TRIO 24G", "price": 14999.0, "inventory": 50},
+    "product2": {"productName": "MSI GeForce RTX 4080 SUPRIM X 16GB", "price": 9999.0, "inventory": 50},
+    "product3": {"productName": "MSI GeForce RTX 4070Ti SUPRIM 12G", "price": 7499.0, "inventory": 50},
+    "product4": {"productName": "MSI GeForce RTX 4070 GAMING X TRIO 12G", "price": 5199.0, "inventory": 50},
+    "product5": {"productName": "MSI GeForce RTX 4060Ti GAMING X 8G", "price": 3299.0, "inventory": 50},
+    "product6": {"productName": "MSI GeForce RTX 4060 GAMING X  NV EDITION 8G", "price": 2699, "inventory": 50},
+    "product7": {"productName": "NVIDIA Tesla H100 80G ", "price": 309999.0, "inventory": 50},
 }
 
 # 创建一个空的购物车集合
