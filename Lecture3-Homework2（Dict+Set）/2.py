@@ -1,4 +1,4 @@
-# 创建一个空的电影评分字典
+# 创建一个空的字典
 movieRatings = {}
 
 # 添加电影和评分
@@ -29,7 +29,7 @@ def deleteMovieRating(movieName):
     else:
         print(f"找不到电影 '{movieName}' 的评分")
 
-# 主程序
+
 while True:
     print("\n电影评分系统")
     print("1. 添加电影评分")

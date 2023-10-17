@@ -1,4 +1,4 @@
-# 创建一个空的学生管理系统
+# 创建一个空的字典
 studentGrades = {}
 
 # 添加学生和成绩
@@ -6,14 +6,14 @@ def addStudent(name, grade):
     studentGrades[name] = grade
     print(f"学生 '{name}' 的成绩已添加为 {grade}")
 
-# 查找学生成绩
+# 查找成绩
 def findGrade(name):
     if name in studentGrades:
         print(f"学生 '{name}' 的成绩是 {studentGrades[name]}")
     else:
         print(f"找不到学生 '{name}' 的成绩")
 
-# 修改学生成绩
+# 修改成绩
 def updateGrade(name, newGrade):
     if name in studentGrades:
         studentGrades[name] = newGrade
@@ -21,7 +21,7 @@ def updateGrade(name, newGrade):
     else:
         print(f"找不到学生 '{name}' 的成绩")
 
-# 删除学生成绩
+# 删除成绩
 def deleteStudent(name):
     if name in studentGrades:
         del studentGrades[name]
@@ -29,7 +29,7 @@ def deleteStudent(name):
     else:
         print(f"找不到学生 '{name}' 的成绩")
 
-# 打印所有学生和成绩
+# 打印学生和成绩
 def printAllStudents():
     for name, grade in studentGrades.items():
         print(f"{name}: {grade}")
