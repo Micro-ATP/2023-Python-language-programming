@@ -1,4 +1,4 @@
-# 创建一个包含100个产品信息的字典
+# 创建一个包含N个产品信息的字典
 productInfo = {
     "product1": {"productName": "MSI GeForce RTX 4090 GAMING X TRIO 24G", "price": 14999.0, "inventory": 50},
     "product2": {"productName": "MSI GeForce RTX 4080 SUPRIM X 16GB", "price": 9999.0, "inventory": 50},
@@ -89,7 +89,7 @@ def checkout():
     shoppingCart.clear()
     print("结账成功！购物车已清空。")
 
-# 主程序
+
 while True:
     print("\n在线商店")
     print("1. 浏览商品")

@@ -1,7 +1,7 @@
 # 创建一个空的字典
 movieRatings = {}
 
-# 添加电影和评分
+# 添加电影评分
 def addMovieRating(movieName, rating):
     movieRatings[movieName] = rating
     print(f"电影 '{movieName}' 的评分已添加为 {rating}")
