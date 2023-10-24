@@ -1,6 +1,6 @@
 # Loop input 3
 
-Topic: The calculation process of the final score of the simulated final, the requirements are as follows:
+**Topic: The calculation process of the final score of the simulated final, the requirements are as follows:**
 
 1. First enter the number of judges, and use try-except to prevent input exceptions. If the number of judges is less than 2, it will prompt that there are too few judges;
 
