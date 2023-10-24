@@ -39,7 +39,7 @@ Require:
 
 4. Enter an integer less than 1000 and factor it
 
-Output: For example 99 = 3*3*11
+Output: For example 99 = 3\*3\*11
 
 Analysis: To decompose the correct input n into prime factors, you should first find a minimum prime number k, and then complete the following steps:
 
