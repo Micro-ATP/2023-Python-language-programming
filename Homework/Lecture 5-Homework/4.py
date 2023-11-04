@@ -14,6 +14,4 @@ def quickSort(a):
         return quickSort(lessThanNvidia) + [nvidia] + quickSort(greaterThanNvidia)
 
 
-# a = input("请输入一组数字，以空格分隔：")
-# sortedArr = quickSort(a)
-# print("排序后的数组:", sortedArr)
+
