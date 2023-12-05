@@ -3,5 +3,5 @@ import seaborn as sns
 import pandas as pd
 
 data = pd.read_csv('Homework\\Exercise matplotlib\\Iris.csv')
-sns.scatterplot(x='PetalLengthCm',y='SepalLengthCm',hue='Species',style='Species',s=90,data=data)
+sns.boxplot(x='Species',y='SepalLengthCm',data=data,hue='Species')
 plt.show()
