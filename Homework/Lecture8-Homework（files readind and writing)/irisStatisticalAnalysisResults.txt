@@ -1,0 +1,15 @@
+均值:
+Id               75.500000
+SepalLengthCm     5.843333
+SepalWidthCm      3.054000
+PetalLengthCm     3.758667
+PetalWidthCm      1.198667
+dtype: float64
+
+标准差:
+Id               43.445368
+SepalLengthCm     0.828066
+SepalWidthCm      0.433594
+PetalLengthCm     1.764420
+PetalWidthCm      0.763161
+dtype: float64
