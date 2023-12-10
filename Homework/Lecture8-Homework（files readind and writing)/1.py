@@ -16,6 +16,6 @@ def processTextFile(inputFilePath, outputFilePath):
     print("处理完成，结果已写入到{}文件中。".format(outputFilePath))
 
 
-inputFilePath = 'input.txt'
-outputFilePath = 'output.txt'
+inputFilePath = 'Homework\Lecture8-Homework（files readind and writing)\input1.txt'
+outputFilePath = 'Homework\Lecture8-Homework（files readind and writing)\output1.txt'
 processTextFile(inputFilePath, outputFilePath)
