@@ -1,8 +1,8 @@
 import jieba
 import wordcloud
 from imageio import imread
-mask = imread("chinamap.jpg")
-f = open("2020年1号文件.txt","r",encoding="utf-8")
+mask = imread("Homework\\20231212-Practice\\chinamap.png")
+f = open("Homework\\20231212-Practice\\词云3配套.txt","r",encoding="utf-8")
 t = f.read()
 f.close()
 ls = jieba.lcut(t)
@@ -11,10 +11,10 @@ for i in ls:
     if len(i) >= 1:
         t_ls.append(i)
 txt = " ".join(t_ls)
-w = worldcloud.WordCloud(\
+w = wordcloud.WordCloud(\
     width = 1000,height = 700,\
     background_color = "white",
     font_path = "msyh.ttc",mask = mask
     )
 w.generate(txt)
-w.to_file("testcloudm.png")
+w.to_file("Homework\\20231212-Practice\\testcloudm.png")
