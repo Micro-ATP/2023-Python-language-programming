@@ -1,7 +1,7 @@
 import jieba
 import wordcloud
 from imageio import imread
-mask = imread("Homework\\20231212-Practice\\ciyun3\\chinamap.png")
+mask = imread("Homework\\20231212-Practice\\ciyun3\\chinamap.jpg")
 f = open("Homework\\20231212-Practice\\ciyun3\\词云3配套.txt","r",encoding="utf-8")
 t = f.read()
 f.close()
