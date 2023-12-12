@@ -16,3 +16,5 @@ w = worldcloud.WordCloud(\
     background_color = "white",
     font_path = "msyh.ttc",mask = mask
     )
+w.generate(txt)
+w.to_file("testcloudm.png")
