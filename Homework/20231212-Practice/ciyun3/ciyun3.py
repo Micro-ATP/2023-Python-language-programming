@@ -1,8 +1,8 @@
 import jieba
 import wordcloud
 from imageio import imread
-mask = imread("Homework\\20231212-Practice\\chinamap.png")
-f = open("Homework\\20231212-Practice\\词云3配套.txt","r",encoding="utf-8")
+mask = imread("Homework\\20231212-Practice\\ciyun3\\chinamap.png")
+f = open("Homework\\20231212-Practice\\ciyun3\\词云3配套.txt","r",encoding="utf-8")
 t = f.read()
 f.close()
 ls = jieba.lcut(t)
@@ -17,4 +17,4 @@ w = wordcloud.WordCloud(\
     font_path = "msyh.ttc",mask = mask
     )
 w.generate(txt)
-w.to_file("Homework\\20231212-Practice\\testcloudm.png")
+w.to_file("Homework\\20231212-Practice\\ciyun3\\testcloudm.png")
