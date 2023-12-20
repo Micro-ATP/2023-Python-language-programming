@@ -15,20 +15,4 @@ input_strs = ["listen", "cab", "abc", "silent", "hello", "hit", "enlist", "ith"]
 output_groups = group_anagrams(input_strs)
 print(output_groups)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # powered by Genshin Impact
